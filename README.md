@@ -33,6 +33,8 @@ You can then ask it questions! Some starting examples:
 - Show a list of tables (this is always good to start with as it ensures ChatGPT knows which tables are available)
 - Show the first 10 rows of the `mytable` table
 
+This plugin currently exposes a single database - the first database attached to your instance.
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
