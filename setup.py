@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name="datasette-chatgpt-plugin",
-    description="Turn a Datasette instance into a ChatGPT plugin",
+    description="A Datasette plugin that turns a Datasette instance into a ChatGPT plugin",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Simon Willison",
@@ -27,7 +27,7 @@ setup(
     license="Apache License, Version 2.0",
     classifiers=[
         "Framework :: Datasette",
-        "License :: OSI Approved :: Apache Software License"
+        "License :: OSI Approved :: Apache Software License",
     ],
     version=VERSION,
     packages=["datasette_chatgpt_plugin"],
