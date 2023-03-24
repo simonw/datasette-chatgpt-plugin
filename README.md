@@ -9,6 +9,8 @@ A Datasette plugin that turns a Datasette instance into a ChatGPT plugin - so yo
 
 For more on this project, see [Building a ChatGPT plugin to ask questions of data hosted in Datasette](https://simonwillison.net/2023/Mar/24/datasette-chatgpt-plugin/).
 
+⚠️ **Warning**: ChatGPT can still hallucinate results using this plugin! See [this issue](https://github.com/simonw/datasette-chatgpt-plugin/issues/2) for more details of this problem.
+
 ## Installation
 
 Install this plugin in the same environment as Datasette, on a deployed instance.
