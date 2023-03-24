@@ -28,6 +28,8 @@ Once installed, your Datasette instance will work with the new [ChatGPT plugins]
 
 Click `Plugins -> Plugin store -> Install an unverified plugin` and enter the URL of your Datasette instance.
 
+If this does'nt work, try `Develop my own plugin -> My manifest is ready` instead and then paste in your URL.
+
 ChatGPT will discover the plugin by hitting the `/.well-known/ai-plugin.json` endpoint.
 
 You can then ask it questions! Some starting examples:
